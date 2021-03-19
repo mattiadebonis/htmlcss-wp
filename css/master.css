@@ -6,12 +6,18 @@
 }
 body{
     font-family: 'Montserrat', sans-serif;
+    color: gray;
 }
 body > *{
     margin: 10px 10% 10px 10%;
 }
 
 /*intestazione pagina */
+
+.superiore > h2{
+    font-weight: 800;
+    font-size: 
+}
 
 #logo{
     height: 70px;
@@ -34,24 +40,43 @@ a{
 }
 
 /*contenitore*/
-.banner{
-    background-image: url(../img/banner.jpg);
+
+.stile-immagine{
+    border-radius: 20px;
     background-size: cover;
-    height: 400px;
     background-position: center;
 }
-.testo.banner{
+.immagine-banner{
+    background-image: url(../img/banner.jpg);
+}
+.overlay{
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+
+}
+.dimensioni-banner{
+    height: 400px;
+
+}
+
+.impaginazione-testo-banner{
+    padding-left: 10%; 
+    color: white;
+
+}
+.titolo-banner{
+    padding-top: 300px;
+    font-size:  32px;
+}
+.sottotitolo-banner{
+    padding-bottom:50px;
 
 }
 
 /*sezione principale*/
-main{
-    background-color:rgb(1, 134,255);
-}
 
 main > *{
-    background-color: powderblue;
-    margin-bottom: 1%;
+    margin-bottom: 2%;
 }
 
 .clearfix::after{
@@ -68,11 +93,29 @@ main > *{
 .destra,
 .sinistra{
     width: 25%;
-   
+
+}
+
+.immagine-sinistra{
+    background-image: url(../img/img-1.jpg);
+
+}
+.immagine-destra{
+    background-image: url(../img/img-3.jpg);
+
+}
+.immagine-centrale{
+    background-image: url(../img/banner-2.jpg);
+}
+
+.dimensione-immagine-main{
+    height: 219px;
+    width:100%;
+    background-size: cover;
+    background-position: center;
 }
 
 .impaginazione-main{
-    height: 300px;
     float: left;
 }
 
@@ -83,10 +126,9 @@ main > *{
     
 }
 
-
-/*footer*/
-footer{
-    background-color: rgb(136,1,254);
-    height: 50px;
+.crediti::after{
+    content: "\2665";
+    color: red;
+    font-size: 26px;
 }
 
