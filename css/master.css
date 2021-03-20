@@ -19,11 +19,6 @@ body > *{
 
 /*intestazione pagina */
 
-.superiore > h2{
-    font-weight: 800;
-    font-size: 
-}
-
 #logo{
     height: 70px;
 }
@@ -68,6 +63,7 @@ a{
 .titolo-banner{
     padding-top: 300px;
     font-size:  32px;
+    font-weight: 400;
 }
 .sottotitolo-banner{
     padding-bottom:50px;
