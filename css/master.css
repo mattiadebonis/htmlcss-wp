@@ -4,7 +4,6 @@
     margin:0;
     box-sizing: border-box;
 }
-
 body{
     font-family: 'Montserrat', sans-serif;
     color: gray;
@@ -21,11 +20,7 @@ body > *{
 .overlay{
     background: rgba(0, 0, 0, 0.2);
     border-radius: 20px;
-}
 
-.titolo{
-    line-height: 50px;
-    color: black;
 }
 
 a{
@@ -33,6 +28,7 @@ a{
 }
 
 /*intestazione pagina */
+
 #logo{
     height: 70px;
 }
@@ -52,6 +48,9 @@ a{
 /*Banner*/
 .immagine-banner{
     background-image: url(../img/banner.jpg);
+
+}
+.dim-ban{
     height: 400px;
 }
 
@@ -59,13 +58,13 @@ a{
     font-size:  32px;
     font-weight: 400;
 }
-
 .impaginazione-testo-banner{
-    padding: 300px 40px 50px 40px;
+    padding: 100px 40px 50px 40px;
     color: white;
 }
 
 /*organizzazione main*/
+
 .clearfix::after{
     content: "";
     display: table;
@@ -74,7 +73,7 @@ a{
 
 .superiore{
     width: 100%;
-    padding-top: 60px;
+    padding-top: 20px;
     padding-bottom: 20px;
 }
 
@@ -91,24 +90,33 @@ a{
 .destra,
 .sinistra{
     width: 24%;
+
+}
+/* contenuti main */
+h1{
+    color: black;
+}
+.immagine-sinistra{
+    background-image: url(../img/img-1.jpg);
+
+}
+.immagine-destra{
+    background-image: url(../img/img-3.jpg);
+
+}
+.immagine-centrale{
+    background-image: url(../img/banner-2.jpg);
 }
 
-/* contenuti main */
 .dimensione-immagine-main{
     height: 220px;
     width:100%;
+    
 }
 
-.immagine-sinistra{
-    background-image: url(../img/img-1.jpg);
-}
-
-.immagine-destra{
-    background-image: url(../img/img-3.jpg);
-}
-
-.immagine-centrale{
-    background-image: url(../img/banner-2.jpg);
+.titolo-sezione{
+    line-height: 50px;
+    color: black;
 }
 
 /* footer */
